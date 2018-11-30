@@ -1,0 +1,472 @@
+
+<!DOCTYPE HTML>
+<html lang="zh-hans" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>创建合并 · gitbook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        <meta name="author" content="WeiLai">
+        
+        
+    
+    <link rel="stylesheet" href="gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-donate/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="4-2-git分支管理-解决冲突.html" />
+    
+    
+    <link rel="prev" href="分支管理.html" />
+    
+
+    <style>
+    @media only screen and (max-width: 640px) {
+        .book-header .hidden-mobile {
+            display: none;
+        }
+    }
+    </style>
+    <script>
+        window["gitbook-plugin-github-buttons"] = {"repo":"itswl/learn_gitbook","types":["star"],"size":"small"};
+    </script>
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="输入并搜索" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    简介
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="1-git初识.html">
+            
+                <a href="1-git初识.html">
+            
+                    
+                    初识
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="2-git中的工作区与暂存区.html">
+            
+                <a href="2-git中的工作区与暂存区.html">
+            
+                    
+                    工作区与暂存区
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="3-远程仓库.md">
+            
+                <span>
+            
+                    
+                    远程仓库
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="分支管理.html">
+            
+                <a href="分支管理.html">
+            
+                    
+                    分支管理
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter active" data-level="1.5.1" data-path="4-1-git中分支管理-创建合并.html">
+            
+                <a href="4-1-git中分支管理-创建合并.html">
+            
+                    
+                    创建合并
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.2" data-path="4-2-git分支管理-解决冲突.html">
+            
+                <a href="4-2-git分支管理-解决冲突.html">
+            
+                    
+                    解决冲突
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.3" data-path="4-3-git分支管理-分支管理政策.html">
+            
+                <a href="4-3-git分支管理-分支管理政策.html">
+            
+                    
+                    分支管理政策
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.4" data-path="4-4-git分支管理-Bug分支.html">
+            
+                <a href="4-4-git分支管理-Bug分支.html">
+            
+                    
+                    Bug分支
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.5" data-path="4-5-git分支管理-feature分支.html">
+            
+                <a href="4-5-git分支管理-feature分支.html">
+            
+                    
+                    feature分支
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.6" data-path="4-6-git分支管理-多人协作.html">
+            
+                <a href="4-6-git分支管理-多人协作.html">
+            
+                    
+                    多人协作
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.7" data-path="4-7-git分支管理-rebase.html">
+            
+                <a href="4-7-git分支管理-rebase.html">
+            
+                    
+                    rebase
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="5-git标签管理.html">
+            
+                <a href="5-git标签管理.html">
+            
+                    
+                    标签管理
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" data-path="6-git之使用github.html">
+            
+                <a href="6-git之使用github.html">
+            
+                    
+                    使用github
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8" data-path="7-git之自定义.html">
+            
+                <a href="7-git之自定义.html">
+            
+                    
+                    自定义
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            本书使用 GitBook 发布
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="." >创建合并</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="&#x5C0F;&#x7ED3;">&#x5C0F;&#x7ED3;</h1>
+<p>Git&#x9F13;&#x52B1;&#x5927;&#x91CF;&#x4F7F;&#x7528;&#x5206;&#x652F;&#xFF1A;
+&#x67E5;&#x770B;&#x5206;&#x652F;&#xFF1A;<code>git branch</code>
+&#x521B;&#x5EFA;&#x5206;&#x652F;&#xFF1A;<code>git branch &lt;name&gt;</code> eg:<code>git branch dev</code>
+&#x5207;&#x6362;&#x5206;&#x652F;&#xFF1A;<code>git checkout &lt;name&gt;</code> eg:<code>git checkout dev</code>
+&#x521B;&#x5EFA;+&#x5207;&#x6362;&#x5206;&#x652F;&#xFF1A;<code>git checkout -b &lt;name&gt;</code> eg:<code>git checkout -b dev</code>(&#x76F8;&#x5F53;&#x4E8E;&#x4E0A;&#x9762;&#x4E24;&#x6761;&#x547D;&#x4EE4;&#xFF09;
+&#x5408;&#x5E76;&#x67D0;&#x5206;&#x652F;&#x5230;&#x5F53;&#x524D;&#x5206;&#x652F;&#xFF1A;<code>git merge &lt;name&gt;</code> eg:<code>git merge dev</code>
+&#x5220;&#x9664;&#x5206;&#x652F;&#xFF1A;<code>git branch -d &lt;name&gt;</code>  eg:<code>git branch -d dev</code></p>
+<h1 id="&#x6B63;&#x6587;">&#x6B63;&#x6587;</h1>
+<p><strong>&#x5728;Git&#x91CC;&#xFF0C;master&#x5206;&#x652F;&#x53EB;&#x4E3B;&#x5206;&#x652F;&#x3002;</strong>
+&#x4E00;&#x5F00;&#x59CB;&#x7684;&#x65F6;&#x5019;&#xFF0C;<code>master</code>&#x5206;&#x652F;&#x662F;&#x4E00;&#x6761;&#x7EBF;&#xFF0C;Git&#x7528;<code>master</code>&#x6307;&#x5411;&#x6700;&#x65B0;&#x7684;&#x63D0;&#x4EA4;&#xFF0C;&#x518D;&#x7528;<code>HEAD</code>&#x6307;&#x5411;<code>master</code>&#xFF0C;&#x5C31;&#x80FD;&#x786E;&#x5B9A;&#x5F53;&#x524D;&#x5206;&#x652F;&#xFF0C;&#x4EE5;&#x53CA;&#x5F53;&#x524D;&#x5206;&#x652F;&#x7684;&#x63D0;&#x4EA4;&#x70B9;&#xFF1A;</p>
+<p><img src="http://upload-images.jianshu.io/upload_images/14597179-a9c04e64b6ff65ac?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="git-br-initial"></p>
+<p>&#x6BCF;&#x6B21;&#x63D0;&#x4EA4;&#xFF0C;<code>master</code>&#x5206;&#x652F;&#x90FD;&#x4F1A;&#x5411;&#x524D;&#x79FB;&#x52A8;&#x4E00;&#x6B65;&#xFF0C;&#x8FD9;&#x6837;&#xFF0C;&#x968F;&#x7740;&#x4F60;&#x4E0D;&#x65AD;&#x63D0;&#x4EA4;&#xFF0C;<code>master</code>&#x5206;&#x652F;&#x7684;&#x7EBF;&#x4E5F;&#x8D8A;&#x6765;&#x8D8A;&#x957F;&#xFF1A;</p>
+<p>&#x5F53;&#x6211;&#x4EEC;&#x521B;&#x5EFA;&#x65B0;&#x7684;&#x5206;&#x652F;&#xFF0C;&#x4F8B;&#x5982;<code>dev</code>&#x65F6;&#xFF0C;Git&#x65B0;&#x5EFA;&#x4E86;&#x4E00;&#x4E2A;&#x6307;&#x9488;&#x53EB;<code>dev</code>&#xFF0C;&#x6307;&#x5411;<code>master</code>&#x76F8;&#x540C;&#x7684;&#x63D0;&#x4EA4;&#xFF0C;&#x518D;&#x628A;<code>HEAD</code>&#x6307;&#x5411;<code>dev</code>&#xFF0C;&#x5C31;&#x8868;&#x793A;&#x5F53;&#x524D;&#x5206;&#x652F;&#x5728;<code>dev</code>&#x4E0A;&#xFF1A;</p>
+<p><img src="http://upload-images.jianshu.io/upload_images/14597179-366bce6dbbfe994a?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="git-br-create"></p>
+<p>&#x4F60;&#x770B;&#xFF0C;Git&#x521B;&#x5EFA;&#x4E00;&#x4E2A;&#x5206;&#x652F;&#x5F88;&#x5FEB;&#xFF0C;&#x56E0;&#x4E3A;&#x9664;&#x4E86;&#x589E;&#x52A0;&#x4E00;&#x4E2A;<code>dev</code>&#x6307;&#x9488;&#xFF0C;&#x6539;&#x6539;<code>HEAD</code>&#x7684;&#x6307;&#x5411;&#xFF0C;&#x5DE5;&#x4F5C;&#x533A;&#x7684;&#x6587;&#x4EF6;&#x90FD;&#x6CA1;&#x6709;&#x4EFB;&#x4F55;&#x53D8;&#x5316;&#xFF01;</p>
+<p>&#x4E0D;&#x8FC7;&#xFF0C;&#x4ECE;&#x73B0;&#x5728;&#x5F00;&#x59CB;&#xFF0C;&#x5BF9;&#x5DE5;&#x4F5C;&#x533A;&#x7684;&#x4FEE;&#x6539;&#x548C;&#x63D0;&#x4EA4;&#x5C31;&#x662F;&#x9488;&#x5BF9;<code>dev</code>&#x5206;&#x652F;&#x4E86;&#xFF0C;&#x6BD4;&#x5982;&#x65B0;&#x63D0;&#x4EA4;&#x4E00;&#x6B21;&#x540E;&#xFF0C;<code>dev</code>&#x6307;&#x9488;&#x5F80;&#x524D;&#x79FB;&#x52A8;&#x4E00;&#x6B65;&#xFF0C;&#x800C;<code>master</code>&#x6307;&#x9488;&#x4E0D;&#x53D8;&#xFF1A;</p>
+<p><img src="http://upload-images.jianshu.io/upload_images/14597179-02fb9ede79fcd202?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="git-br-dev-fd"></p>
+<p>&#x5047;&#x5982;&#x6211;&#x4EEC;&#x5728;<code>dev</code>&#x4E0A;&#x7684;&#x5DE5;&#x4F5C;&#x5B8C;&#x6210;&#x4E86;&#xFF0C;&#x5C31;&#x53EF;&#x4EE5;&#x628A;<code>dev</code>&#x5408;&#x5E76;&#x5230;<code>master</code>&#x4E0A;&#x3002;Git&#x600E;&#x4E48;&#x5408;&#x5E76;&#x5462;&#xFF1F;&#x6700;&#x7B80;&#x5355;&#x7684;&#x65B9;&#x6CD5;&#xFF0C;&#x5C31;&#x662F;&#x76F4;&#x63A5;&#x628A;<code>master</code>&#x6307;&#x5411;<code>dev</code>&#x7684;&#x5F53;&#x524D;&#x63D0;&#x4EA4;&#xFF0C;&#x5C31;&#x5B8C;&#x6210;&#x4E86;&#x5408;&#x5E76;&#xFF1A;</p>
+<p><img src="http://upload-images.jianshu.io/upload_images/14597179-7b53bb949edf3c76?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="git-br-ff-merge"></p>
+<p>&#x6240;&#x4EE5;Git&#x5408;&#x5E76;&#x5206;&#x652F;&#x4E5F;&#x5F88;&#x5FEB;&#xFF01;&#x5C31;&#x6539;&#x6539;&#x6307;&#x9488;&#xFF0C;&#x5DE5;&#x4F5C;&#x533A;&#x5185;&#x5BB9;&#x4E5F;&#x4E0D;&#x53D8;&#xFF01;</p>
+<p>&#x5408;&#x5E76;&#x5B8C;&#x5206;&#x652F;&#x540E;&#xFF0C;&#x751A;&#x81F3;&#x53EF;&#x4EE5;&#x5220;&#x9664;<code>dev</code>&#x5206;&#x652F;&#x3002;&#x5220;&#x9664;<code>dev</code>&#x5206;&#x652F;&#x5C31;&#x662F;&#x628A;<code>dev</code>&#x6307;&#x9488;&#x7ED9;&#x5220;&#x6389;&#xFF0C;&#x5220;&#x6389;&#x540E;&#xFF0C;&#x6211;&#x4EEC;&#x5C31;&#x5269;&#x4E0B;&#x4E86;&#x4E00;&#x6761;<code>master</code>&#x5206;&#x652F;&#xFF1A;</p>
+<p><img src="http://upload-images.jianshu.io/upload_images/14597179-d24d4eaddb364f34?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="git-br-rm"></p>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="分支管理.html" class="navigation navigation-prev " aria-label="Previous page: 分支管理">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="4-2-git分支管理-解决冲突.html" class="navigation navigation-next " aria-label="Next page: 解决冲突">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"创建合并","level":"1.5.1","depth":2,"next":{"title":"解决冲突","level":"1.5.2","depth":2,"path":"4-2-git分支管理-解决冲突.md","ref":"4-2-git分支管理-解决冲突.md","articles":[]},"previous":{"title":"分支管理","level":"1.5","depth":1,"path":"分支管理.md","ref":"分支管理.md","articles":[{"title":"创建合并","level":"1.5.1","depth":2,"path":"4-1-git中分支管理-创建合并.md","ref":"4-1-git中分支管理-创建合并.md","articles":[]},{"title":"解决冲突","level":"1.5.2","depth":2,"path":"4-2-git分支管理-解决冲突.md","ref":"4-2-git分支管理-解决冲突.md","articles":[]},{"title":"分支管理政策","level":"1.5.3","depth":2,"path":"4-3-git分支管理-分支管理政策.md","ref":"4-3-git分支管理-分支管理政策.md","articles":[]},{"title":"Bug分支","level":"1.5.4","depth":2,"path":"4-4-git分支管理-Bug分支.md","ref":"4-4-git分支管理-Bug分支.md","articles":[]},{"title":"feature分支","level":"1.5.5","depth":2,"path":"4-5-git分支管理-feature分支.md","ref":"4-5-git分支管理-feature分支.md","articles":[]},{"title":"多人协作","level":"1.5.6","depth":2,"path":"4-6-git分支管理-多人协作.md","ref":"4-6-git分支管理-多人协作.md","articles":[]},{"title":"rebase","level":"1.5.7","depth":2,"path":"4-7-git分支管理-rebase.md","ref":"4-7-git分支管理-rebase.md","articles":[]}]},"dir":"ltr"},"config":{"plugins":["donate","github-buttons@2.1.0","edit-link","livereload"],"root":".","styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"livereload":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"donate":{"alipay":"https://upload-images.jianshu.io/upload_images/14597179-244cd80fc2dec0f6.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240","alipayText":"支付宝打赏","button":"打赏","title":"","wechat":"https://upload-images.jianshu.io/upload_images/14597179-5eaac14c06e7dc3f.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240","wechatText":"微信打赏"},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"github-buttons":{"repo":"itswl/learn_gitbook","types":["star"],"size":"small"},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"edit-link":{"label":"Edit This Page","base":"https://github.com/itswl/learn_gitbook/edit/master"},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","author":"WeiLai","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"gitbook","language":"zh-hans","gitbook":"*","description":"gitbook"},"file":{"path":"4-1-git中分支管理-创建合并.md","mtime":"2018-11-26T20:10:14.000Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-11-30T08:12:35.772Z"},"basePath":".","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="gitbook/gitbook.js"></script>
+    <script src="gitbook/theme.js"></script>
+    
+        
+        <script src="gitbook/gitbook-plugin-donate/plugin.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-github-buttons/plugin.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-edit-link/plugin.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-livereload/plugin.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
