@@ -1,7 +1,7 @@
 
 {
-    "title": "gitbook",
-    "description": "gitbook",
+    "title": "git",
+    "description": "git",
     "author": "WeiLai",
     "language": "zh-hans",
     "root": ".",
@@ -22,14 +22,14 @@
             "wechatText": "微信打赏"
         },
         "github-buttons": {
-            "repo": "itswl/learn_gitbook",
+            "repo": "itswl/learn_git",
             "types": [
                 "star"
             ],
             "size": "small"
         },
         "edit-link": {
-            "base": "https://github.com/itswl/learn_gitbook/edit/master",
+            "base": "https://github.com/itswl/learn_git/edit/master",
             "label": "Edit This Page"
         }
     }
